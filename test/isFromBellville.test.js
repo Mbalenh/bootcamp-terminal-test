@@ -2,7 +2,7 @@ let assert = require("assert");
 let isFromBellville = require("../isFromBellville");
 
 describe("The isFromBellville function", function(){
-    it("should  return true .if the regNums.startsWith('CY')" , function(){
+    it("should  return true .if the regNums.startsWith('CY') on the registration number from Bellville" , function(){
         assert.equal(isFromBellville('CY 123'), true)
     });
     it(" should return true ifThe registration number from Bellville startsWith('CY')" , function(){
